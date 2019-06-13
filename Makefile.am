@@ -31,19 +31,13 @@ cpuminer_SOURCES = \
   crypto/hash.c \
   crypto/aesb.c \
   crypto/magimath.cpp \
-  algo/argon2/argon2a/argon2a.c \
-  algo/argon2/argon2a/ar2/argon2.c \
-  algo/argon2/argon2a/ar2/opt.c \
-  algo/argon2/argon2a/ar2/cores.c \
-  algo/argon2/argon2a/ar2/ar2-scrypt-jane.c \
-  algo/argon2/argon2a/ar2/blake2b.c \
-  algo/argon2/argon2d/argon2d-gate.c \
-  algo/argon2/argon2d/blake2/blake2b.c \
-  algo/argon2/argon2d/argon2d/argon2.c \
-  algo/argon2/argon2d/argon2d/core.c \
-  algo/argon2/argon2d/argon2d/opt.c \
-  algo/argon2/argon2d/argon2d/argon2d_thread.c \
-  algo/argon2/argon2d/argon2d/encoding.c \
+  algo/argon2/argon2s/argon2s-gate.c \
+  algo/argon2/argon2s/argon2s/argon2.c \
+  algo/argon2/argon2s/argon2s/blake2/blake2b.c \
+  algo/argon2/argon2s/argon2s/core.c \
+  algo/argon2/argon2s/argon2s/encoding.c \
+  algo/argon2/argon2s/argon2s/opt.c \
+  algo/argon2/argon2s/argon2s/thread.c \
   algo/blake/sph_blake.c \
   algo/blake/blake256-hash-4way.c \
   algo/blake/blake512-hash-4way.c \
